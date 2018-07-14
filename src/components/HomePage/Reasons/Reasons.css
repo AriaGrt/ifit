@@ -1,0 +1,55 @@
+h2{
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.reasons-wrapper-big{
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.reasons-wrapper-big div p{
+  text-align: justify;
+}
+
+.reason-img{
+  border-radius: 50%;
+  width: 100%;
+}
+
+@media screen and (max-width: 767px){
+  .reasons-wrapper-big{
+    text-align: center;
+    margin-top: 20px;
+  }
+  .reasons-wrapper-big row div{
+    margin-bottom: 20px;
+  }
+
+  .reasons-wrapper-big div p{
+    margin-top: 20px;
+  }
+
+  .reason-img{
+    width: 45%;
+  }
+
+  .reasons-wrapper{
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .divider{
+    background-color: #E09E62;
+    width: 70%;
+    height: 2px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 950px){
+  .reasons-wrapper-big div{
+    margin-bottom: 40px;
+  }
+}

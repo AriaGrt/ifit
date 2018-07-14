@@ -1,0 +1,40 @@
+#coaching-images-wrapper{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#coaching-images-wrapper .wrapper{
+  width: 240px;
+  height: 240px;
+  overflow: hidden;
+  margin: 20px;
+  position: relative;
+}
+
+.coaching-image{
+  width: 240px;
+  height: 240px;
+}
+
+.wrapper span{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding-left: 5px;
+  padding-top: 5px;
+  width: 100%;
+  background: white;
+}
+
+.wrapper span:hover{
+  cursor: pointer;
+}
+
+.wrapper span i{
+  float: right;
+  margin-right: 5px;
+  font-size: 20px;
+}
