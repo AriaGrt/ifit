@@ -6,6 +6,8 @@ import Reasons from './Reasons/Reasons'
 import Divider from './Divider/Divider'
 import Prestations from "./Prestations/Prestations"
 import Coaching from "./Coaching/Coaching"
+import Contact from './Contact/Contact'
+import ContactFixed from './ContactFixed/ContactFixed'
 
 export default class HomePage extends Component {
 
@@ -28,6 +30,7 @@ export default class HomePage extends Component {
     let {height} = this.state
     return(
       <div>
+        <ContactFixed/>
         <header>
           <Particles className="particles" params={Parameters}/>
           <div id="header-content-wrapper">
@@ -87,6 +90,9 @@ export default class HomePage extends Component {
         </section>
         <section className="coaching">
           <Coaching/>
+        </section>
+        <section style={{marginTop: '30px'}}>
+          <Contact/>
         </section>
       </div>
     )
