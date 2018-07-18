@@ -81,7 +81,7 @@ export default class HomePage extends Component {
                 <h5>Lorem Ipsum</h5>
                 <p>Lorem Ipsum dolor sit amet, cosctur adispcapn let metus aliquam</p>
               </span>
-              <img src="reason-image-1.png" className="img-fluid"/>
+              <img src="why-ifit-image-3.jpg" className="img-fluid"/>
             </div>
           </div>
         </section>

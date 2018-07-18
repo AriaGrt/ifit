@@ -39,6 +39,8 @@ button:focus{
   background-color: #e09e63;
   color: #ffffff;
   padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  border: none;
 }
 
 .center-section button:hover{
@@ -105,7 +107,7 @@ button:focus{
   color: #dedede;
   letter-spacing: 1.1px;
   margin-top: 20px;
-  font-size: 1em;
+  font-size: 2em;
 }
 
 #box-item-1:hover span{

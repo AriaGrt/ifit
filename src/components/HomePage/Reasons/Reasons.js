@@ -35,7 +35,7 @@ export default class Reasons extends Component {
                 <div className="col-md-3 my-auto"><img className="img-fluid reason-img" src="reason-image-2.jpg"/></div>
               </div>
               <div className="row">
-                <div className="col-md-3 my-auto"><img className="img-fluid reason-img" src="reason-image-1.png"/></div>
+                <div className="col-md-3 my-auto"><img className="img-fluid reason-img" src="reason-image-3.png"/></div>
                 <div className="col-md-9 my-auto">
                   <h5>Lorem ipsum dolor sit amet</h5>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id ante hendrerit, convallis libero at, consectetur ante. Aenean eget viverra nisi. Quisque mattis nisl nulla. Donec lacus arcu, mollis a ornare vitae, varius nec risus. Integer pulvinar pellentesque nisl at accumsan. Cras fermentum, dolor sit amet rutrum semper, ex tellus porttitor est, non mattis odio lectus vitae ex. Sed sit amet vulputate neque. Nulla sit amet dui ante.</p>
@@ -46,7 +46,7 @@ export default class Reasons extends Component {
                   <h5>Lorem ipsum dolor sit amet</h5>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id ante hendrerit, convallis libero at, consectetur ante. Aenean eget viverra nisi. Quisque mattis nisl nulla. Donec lacus arcu, mollis a ornare vitae, varius nec risus. Integer pulvinar pellentesque nisl at accumsan. Cras fermentum, dolor sit amet rutrum semper, ex tellus porttitor est, non mattis odio lectus vitae ex. Sed sit amet vulputate neque. Nulla sit amet dui ante.</p>
                 </div>
-                <div className="col-md-3 my-auto"><img className="img-fluid reason-img" src="reason-image-2.jpg"/></div>
+                <div className="col-md-3 my-auto"><img className="img-fluid reason-img" src="reason-image-3.png"/></div>
               </div><div className="row">
                 <div className="col-md-3 my-auto"><img className="img-fluid reason-img" src="reason-image-1.png"/></div>
                 <div className="col-md-9 my-auto">

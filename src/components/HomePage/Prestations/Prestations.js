@@ -23,6 +23,15 @@ export default class Prestations extends Component {
           <div className="presta-row">
             <div className="presta-item">
               <div className="presta-background">
+                <img src="presta-1.jpeg" className="img-fluid"/>
+              </div>
+              <div className="presta-text">
+                Zones Ciblées
+              </div>
+            </div>
+            <div className="presta-item">
+              <div className="presta-background">
+                <img src="presta-2.jpg" className="img-fluid"/>
               </div>
               <div className="presta-text">
                 Ventre Plat
@@ -30,53 +39,52 @@ export default class Prestations extends Component {
             </div>
             <div className="presta-item">
               <div className="presta-background">
+                <img src="presta-3.jpg" className="img-fluid"/>
               </div>
               <div className="presta-text">
-                Ventre Plat
+                Cours Collectifs
               </div>
             </div>
             <div className="presta-item">
               <div className="presta-background">
+                <img src="presta-4.jpg" className="img-fluid"/>
               </div>
               <div className="presta-text">
-                Ventre Plat
-              </div>
-            </div>
-            <div className="presta-item">
-              <div className="presta-background">
-              </div>
-              <div className="presta-text">
-                Ventre Plat
+                TRX
               </div>
             </div>
           </div>
           <div className="presta-row">
             <div className="presta-item">
               <div className="presta-background">
+                  <img src="presta-5.jpg" className="img-fluid"/>
               </div>
               <div className="presta-text">
-                Ventre Plat
+                Zumba
               </div>
             </div>
             <div className="presta-item">
               <div className="presta-background">
+                <img src="presta-6.jpeg" className="img-fluid"/>
               </div>
               <div className="presta-text">
-                Ventre Plat
+                Stretching
               </div>
             </div>
             <div className="presta-item">
               <div className="presta-background">
+                <img src="presta-7.jpg" className="img-fluid"/>
               </div>
               <div className="presta-text">
-                Ventre Plat
+                Cross Training
               </div>
             </div>
             <div className="presta-item">
               <div className="presta-background">
+                <img src="presta-8.jpg" className="img-fluid"/>
               </div>
               <div className="presta-text">
-                Ventre Plat
+                Postural
               </div>
             </div>
           </div>
@@ -85,60 +93,136 @@ export default class Prestations extends Component {
           <div className="presta-row">
             <div className="presta-item">
               <div className="presta-background">
+                <img src="presta-9.jpg" className="img-fluid"/>
               </div>
               <div className="presta-text">
-                Ventre Plat
+                Fit Boxing
               </div>
             </div>
             <div className="presta-item">
               <div className="presta-background">
+                <img src="presta-10.jpg" className="img-fluid"/>
               </div>
               <div className="presta-text">
-                Ventre Plat
+                Femme Enceinte
               </div>
             </div>
             <div className="presta-item">
               <div className="presta-background">
+                <img src="presta-11.jpg" className="img-fluid"/>
               </div>
               <div className="presta-text">
-                Ventre Plat
+                Prise de Masse
               </div>
             </div>
             <div className="presta-item">
               <div className="presta-background">
+                <img src="presta-12.jpg" className="img-fluid"/>
               </div>
               <div className="presta-text">
-                Ventre Plat
+                Nutrition
               </div>
             </div>
           </div>
           <div className="presta-row">
             <div className="presta-item">
               <div className="presta-background">
+                <img src="presta-13.jpg" className="img-fluid"/>
               </div>
               <div className="presta-text">
-                Ventre Plat
+                Boot Camp
               </div>
             </div>
             <div className="presta-item">
               <div className="presta-background">
+                <img src="presta-14.jpg" className="img-fluid"/>
               </div>
               <div className="presta-text">
-                Ventre Plat
+                Réathlétisation
               </div>
             </div>
             <div className="presta-item">
               <div className="presta-background">
+                <img src="presta-15.jpg" className="img-fluid"/>
               </div>
               <div className="presta-text">
-                Ventre Plat
+                Préparation Mariage
               </div>
             </div>
             <div className="presta-item">
               <div className="presta-background">
+                <img src="presta-16.jpg" className="img-fluid"/>
               </div>
               <div className="presta-text">
-                Ventre Plat
+                Perte de Poids
+              </div>
+            </div>
+          </div>
+          <div className="presta-row">
+            <div className="presta-item">
+              <div className="presta-background">
+                <img src="presta-17.jpg" className="img-fluid"/>
+              </div>
+              <div className="presta-text">
+                Pilates
+              </div>
+            </div>
+            <div className="presta-item">
+              <div className="presta-background">
+                <img src="presta-18.jpg" className="img-fluid"/>
+              </div>
+              <div className="presta-text">
+                Yoga
+              </div>
+            </div>
+            <div className="presta-item">
+              <div className="presta-background">
+                <img src="presta-19.jpg" className="img-fluid"/>
+              </div>
+              <div className="presta-text">
+                Renforcement Musculaire
+              </div>
+            </div>
+            <div className="presta-item">
+              <div className="presta-background">
+                <img src="presta-20.png" className="img-fluid"/>
+              </div>
+              <div className="presta-text">
+                Senior
+              </div>
+            </div>
+          </div>
+          <div className="presta-row">
+            <div className="presta-item">
+              <div className="presta-background">
+                <img src="presta-21.jpg" className="img-fluid"/>
+              </div>
+              <div className="presta-text">
+                Running
+              </div>
+            </div>
+            <div className="presta-item">
+              <div className="presta-background">
+                <img src="presta-22.jpg" className="img-fluid"/>
+              </div>
+              <div className="presta-text">
+                Préparation Physique
+              </div>
+            </div>
+            <div className="presta-item">
+              <div className="presta-background">
+                <img src="presta-23.jpg" className="img-fluid"/>
+              </div>
+              <div className="presta-text">
+                Prévention des blessures
+              </div>
+            </div>
+            <div className="presta-item">
+              <div className="presta-background">
+                <img src="presta-24.png" className="img-fluid"/>
+              </div>
+              <div className="presta-text">
+                Carte Cadeau
               </div>
             </div>
           </div>
