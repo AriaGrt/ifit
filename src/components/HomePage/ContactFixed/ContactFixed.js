@@ -6,11 +6,14 @@ const ContactFixed = () => (
     <div className="contact-item" id="phone-item">
       <i class="fas fa-phone"></i>
     </div>
+    <div className="contact-item" id="mail-item">
+      <i class="fas fa-envelope"></i>
+    </div>
     <div className="contact-item" id="facebook-item">
       <i class="fab fa-facebook-f"></i>
     </div>
     <div className="contact-item" id="google-item">
-      <i class="fab fa-google"></i>
+      <i class="fab fa-instagram"></i>
     </div>
   </div>
 )

@@ -47,7 +47,7 @@ export default class Prestations extends Component {
             </div>
             <div className="presta-item">
               <div className="presta-background">
-                <img src="presta-4.jpg" className="img-fluid"/>
+                <img src="trx.png" className="img-fluid"/>
               </div>
               <div className="presta-text">
                 TRX
@@ -81,7 +81,7 @@ export default class Prestations extends Component {
             </div>
             <div className="presta-item">
               <div className="presta-background">
-                <img src="presta-8.jpg" className="img-fluid"/>
+                <img src="postural.jpg" className="img-fluid"/>
               </div>
               <div className="presta-text">
                 Postural
@@ -117,7 +117,7 @@ export default class Prestations extends Component {
             </div>
             <div className="presta-item">
               <div className="presta-background">
-                <img src="presta-12.jpg" className="img-fluid"/>
+                <img src="nutrition.jpg" className="img-fluid"/>
               </div>
               <div className="presta-text">
                 Nutrition
@@ -127,7 +127,7 @@ export default class Prestations extends Component {
           <div className="presta-row">
             <div className="presta-item">
               <div className="presta-background">
-                <img src="presta-13.jpg" className="img-fluid"/>
+                <img src="bootcamp.png" className="img-fluid"/>
               </div>
               <div className="presta-text">
                 Boot Camp
@@ -135,7 +135,7 @@ export default class Prestations extends Component {
             </div>
             <div className="presta-item">
               <div className="presta-background">
-                <img src="presta-14.jpg" className="img-fluid"/>
+                <img src="rehabilitation.png" className="img-fluid"/>
               </div>
               <div className="presta-text">
                 Réathlétisation
@@ -185,7 +185,7 @@ export default class Prestations extends Component {
             </div>
             <div className="presta-item">
               <div className="presta-background">
-                <img src="presta-20.png" className="img-fluid"/>
+                <img src="senior.png" className="img-fluid"/>
               </div>
               <div className="presta-text">
                 Senior

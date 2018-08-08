@@ -3,7 +3,7 @@ import './Contact.css'
 
 const Contact = () => (
   <div id="wrapper">
-    <h2 style={{marginTop: '30px'}}>Nous Contacter</h2>
+    <h2 style={{marginTop: '30px', color: 'white'}}>Nous Contacter</h2>
     <div id="form-wrapper">
       <div class="form-section">
         <div class="smaller-form-section" id="text-section">
