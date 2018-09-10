@@ -252,9 +252,9 @@ export default class HomePage extends Component {
                   <p>Un suivi régulier est réaliser afin de connaitre votre progression et vous permettre d’évoluer vers vos objectifs de façon permanente. </p>
                   <u>L’intérêt de la diététique :</u>
                   <u>
-                    <li><u><b>La santé</b></u></br><p>Un ré équilibrage alimentaire joue un rôle préventif sur les maladies de notre temps et permet une réduction du risque de ces maladie en termes de gravitée. </p></li>
-                    <li><u><b>Le sport</b></u></br><p>Participe a la récupération et à la progression des capacités physique, ainsi qu’au changement d’état de votre corps sur la tonification, perte de poids et tout autre domaine. </p></li>
-                    <li><u><b>Bien être et performance</b></u></br><p>Le but d’une prise en charge diététique n’est pas basé sur la privation alimentaire il est ici d’instaurer de bonnes habitudes et adopter un style de vie sain tout en sachant se faire plaisir.</p></li>
+                    <li><u><b>La santé</b></u><br/><p>Un ré équilibrage alimentaire joue un rôle préventif sur les maladies de notre temps et permet une réduction du risque de ces maladie en termes de gravitée. </p></li>
+                    <li><u><b>Le sport</b></u><br/><p>Participe a la récupération et à la progression des capacités physique, ainsi qu’au changement d’état de votre corps sur la tonification, perte de poids et tout autre domaine. </p></li>
+                    <li><u><b>Bien être et performance</b></u><br/><p>Le but d’une prise en charge diététique n’est pas basé sur la privation alimentaire il est ici d’instaurer de bonnes habitudes et adopter un style de vie sain tout en sachant se faire plaisir.</p></li>
                   </u>
                 </div>
                 break;

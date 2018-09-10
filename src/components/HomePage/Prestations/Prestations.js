@@ -18,7 +18,7 @@ export default class Prestations extends Component {
   render(){
     let {prestationToggled, modalToggled} = this.state
     return(
-      
+
         <div className="container">
           <h2>Nos Prestations</h2>
           <div className="presta-container">
@@ -230,7 +230,7 @@ export default class Prestations extends Component {
             </div>
           </div>
           <div id="button-container">
-            <button >Séance d'essai</button>
+            <button >Séance d'</button>
             <span onClick={this.togglePrestations} className="btn btn-default more">
               <i className={prestationToggled ? 'fas fa-minus' : 'fas fa-plus'}></i>
             </span>
