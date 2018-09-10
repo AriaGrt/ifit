@@ -1,6 +1,6 @@
 #contact-fixed-wrapper{
   width: 40px;
-  height: 120px;
+  height: 80px;
   position: fixed;
   right: 0;
   top: 50%;
@@ -38,4 +38,10 @@
 
 .contact-item:hover{
   cursor: pointer;
+}
+
+.contact-item a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.5em;
 }

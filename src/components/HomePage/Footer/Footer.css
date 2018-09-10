@@ -1,0 +1,15 @@
+#footer-wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: #2D2D2D;
+}
+
+.footer-item{
+  flex: 1;
+  text-align: center;
+  padding: 15px;
+  color: white;
+  font-weight: bold;
+}

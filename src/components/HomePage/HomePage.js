@@ -7,6 +7,7 @@ import Divider from './Divider/Divider'
 import Coaching from "./Coaching/Coaching"
 import Contact from './Contact/Contact'
 import ContactFixed from './ContactFixed/ContactFixed'
+import Footer from './Footer/Footer' 
 import scrollToComponent from 'react-scroll-to-component';
 import { Route, Link } from "react-router-dom";
 
@@ -840,8 +841,13 @@ export default class HomePage extends Component {
                 </div>
               </div>
               <div id="button-container">
-                <button >Séance d'essai</button>
+                <button onClick={() => this.refs.contact.scrollIntoView()}>Séance d'essai</button>
                 <span onClick={this.togglePrestations} className="btn btn-default more">
+                  {prestationToggled ? (
+                    <span style={{marginRight: 5, fontSize: 20}}>Voir Moins</span>
+                  ) : (
+                    <span style={{marginRight: 5, fontSize: 20}}>Voir Plus</span>
+                  )}
                   <i className={prestationToggled ? 'fas fa-minus' : 'fas fa-plus'}></i>
                 </span>
               </div>
@@ -852,6 +858,9 @@ export default class HomePage extends Component {
           </section>
           <section style={{ marginTop: '30px' }} ref="contact">
             <Contact />
+          </section>
+          <section ref="footer">
+            <Footer />
           </section>
         </div>
     )

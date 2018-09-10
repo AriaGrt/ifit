@@ -3,7 +3,9 @@ import './App.css';
 import HomePage from './HomePage/HomePage'
 import Blog from './Blog/Blog'
 import { CoachingDomicile, CoachingEntreprise, CoachingExterieur, CoachingClub } from './HomePage/Coaching/Coachings'
-import Tarifs from "./Tarifs/Tarifs" 
+import Tarifs from "./Tarifs/Tarifs"
+import GCV from "./GCV/gcv"
+import mentions from "./mentions/mentions"
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 class App extends Component {
@@ -18,6 +20,8 @@ class App extends Component {
           <Route exact path="/coaching/club" component={CoachingClub} />
           <Route exact path="/blog" component={Blog} />
           <Route exact path="/tarifs" component={Tarifs} />
+          <Route exact path="/mentions" component={mentions} />
+          <Route exact path="/gcv" component={GCV} />
         </div>
       </Router>
     );
