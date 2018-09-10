@@ -1,5 +1,7 @@
 import React from 'react'
 import './Coaching.css'
+import { Route, Link } from "react-router-dom";
+import {CoachingDomicile} from './Coachings'
 
 const Coaching = () => (
   <div>
@@ -8,22 +10,30 @@ const Coaching = () => (
       <div className="wrapper">
         <img className="coaching-image" src="coaching-1.jpg"/>
         <p>Coaching à domicile</p>
-        <span>Découvrir <i className="fas fa-long-arrow-alt-right"></i></span>
+        <Link to="/coaching/domicile" style={{color: 'inherit'}}>
+          <span>Découvrir <i className="fas fa-long-arrow-alt-right"></i></span>
+        </Link>
       </div>
       <div className="wrapper">
         <img className="coaching-image" src="coaching-2.jpg"/>
         <p>Coaching en entreprise</p>
-        <span>Découvrir <i className="fas fa-long-arrow-alt-right"></i></span>
+          <Link to="/coaching/entreprise" style={{color: 'inherit'}}>
+            <span>Découvrir <i className="fas fa-long-arrow-alt-right"></i></span>
+          </Link>
       </div>
       <div className="wrapper">
         <img className="coaching-image" src="coaching-3.jpg"/>
         <p>Coaching en extérieur</p>
-        <span>Découvrir <i className="fas fa-long-arrow-alt-right"></i></span>
+          <Link to="/coaching/exterieur" style={{color: 'inherit'}}>
+            <span>Découvrir <i className="fas fa-long-arrow-alt-right"></i></span>
+          </Link>
       </div>
       <div className="wrapper">
         <img className="coaching-image" src="coaching-4.jpeg"/>
         <p>Coaching en club</p>
-        <span>Découvrir <i className="fas fa-long-arrow-alt-right"></i></span>
+          <Link to="/coaching/club" style={{color: 'inherit'}}>
+            <span>Découvrir <i className="fas fa-long-arrow-alt-right"></i></span>
+          </Link>
       </div>
     </div>
   </div>

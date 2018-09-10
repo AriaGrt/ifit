@@ -10,10 +10,10 @@ const ContactFixed = () => (
       <i class="fas fa-envelope"></i>
     </div>
     <div className="contact-item" id="facebook-item">
-      <i class="fab fa-facebook-f"></i>
+      <a href="https://www.facebook.com/ifitrainer/"><i class="fab fa-facebook-f"></i></a>
     </div>
     <div className="contact-item" id="google-item">
-      <i class="fab fa-instagram"></i>
+      <a href="https://www.instagram.com/ifit_trainer/"><i class="fab fa-instagram"></i></a>
     </div>
   </div>
 )
